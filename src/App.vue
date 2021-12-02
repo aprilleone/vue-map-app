@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Basic Map App</h1>
+    
+    <BaseMap/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import BaseMap from './components/BaseMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BaseMap
   }
 }
 </script>
